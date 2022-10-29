@@ -1,0 +1,18 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "esmodules": true,
+                    "node": "current"
+                }
+            }
+        ]
+    ],
+    "env": {
+      "test": {
+        "plugins": ["@babel/plugin-transform-modules-commonjs"]
+      }
+    }
+  }
